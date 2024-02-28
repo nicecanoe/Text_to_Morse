@@ -13,8 +13,16 @@ the project will complete the list:
 - use class`Morse_code` package the fun
 
 ## morse code to text
-- use `split("space^7")` fun split code from morse
+
+- use regular expressions split the morse_word(word)，`re.split(r' {7}', the_morse_code)`, use `re.split(r' {3}', the_morse_code)` split the str of word
+  > can't use `split("space^7")` fun split code from morse, the fun `split` will consider the `"space*7" = "space*1"`,
+- every word's back should add a `space`
 
 ## the GUI
 
-- [ ] should complete the gui sketch
+- [ ] should complete the GUI sketch
+
+# test code
+
+hello, world.
+`....   .   .-..   .-..   ---   --..--       .--   ---   .-.   .-..   -..   .-.-.-`
