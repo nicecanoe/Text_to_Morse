@@ -3,8 +3,8 @@
 the project will complete the list:
 
 - [x] text to morse code
-- [ ] morse code to text
-- [ ] the GUI
+- [x] morse code to text
+- [x] the GUI
 
 ## text to morse
 
@@ -20,7 +20,8 @@ the project will complete the list:
 
 ## the GUI
 
-- [ ] should complete the GUI sketch
+- [x] should complete the GUI sketch
+- [x] the two button corresponds to the morse code to text/text to morse
 
 # test code
 
